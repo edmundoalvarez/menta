@@ -5,7 +5,7 @@ import { router } from "./routes"; // Importamos el enrutador
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
-    <div className="border border-blue-500 w-screen">
+    <div className="w-screen">
         <StrictMode>
             <RouterProvider router={router} />
         </StrictMode>
