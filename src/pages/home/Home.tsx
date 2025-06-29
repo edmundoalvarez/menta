@@ -1,7 +1,7 @@
 import { MarqueeDemo } from "@/components/MarqueeDemo";
 import { Input } from "@/components/ui/input";
 import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, easeOut } from "framer-motion";
 import { BannerMarquee } from "@/components/BannerMarquee";
 import { useState } from "react";
 
@@ -54,7 +54,7 @@ const Home = () => {
         visible: {
             opacity: 1,
             y: 0,
-            transition: { duration: 0.6, ease: "easeOut" },
+            transition: { duration: 0.6, ease: easeOut },
         },
     };
 
