@@ -114,13 +114,13 @@ const MainLayout = () => {
                             className="w-5"
                         />
                         <strong className=" text-secondary">
-                            @estudiomenta
+                            @mentha.labs
                         </strong>
                     </a>
                 </div>
                 <div className="flex-grow border-t border-secondary mt-10 lg:w-full"></div>
                 <div className="text-sm mt-6 lg:w-full lg:text-right">
-                    All rights reserved © {new Date().getFullYear()} Menta
+                    All rights reserved © {new Date().getFullYear()} Mentha Labs
                 </div>
             </footer>
         </div>
